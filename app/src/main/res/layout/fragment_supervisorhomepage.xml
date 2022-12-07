@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/homepa"
+    tools:context="com.example.supervisorhomepage">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/rep"
+          android:layout_width="172dp"
+          android:layout_height="171dp"
+          android:layout_marginRight="155dp"
+          android:layout_marginBottom="100dp"
+          android:background="@drawable/rep"
+          android:gravity="bottom"
+          android:text="REPORTS"
+          android:textColor="#1931B6"
+          android:textSize="18dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+      <Button
+          android:id="@+id/teacherreg"
+          android:layout_width="172dp"
+          android:layout_height="171dp"
+          android:layout_marginRight="155dp"
+          android:layout_marginBottom="100dp"
+          android:background="@drawable/rep"
+          android:gravity="bottom"
+          android:text="Teacher Registration"
+          android:textColor="#1931B6"
+          android:textSize="18dp"
+          android:layout_marginTop="460dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

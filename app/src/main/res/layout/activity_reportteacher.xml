@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFFFFFF"
+    tools:context="com.example.reportteacher">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#28022E"
+            app:title="TEACHER REPORTS"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Teacher id"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+
+
+        <EditText
+            android:id="@+id/Teacherid"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Teacher id"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4B4B"
+            android:textSize="28dp"/>
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reports"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="#C66ED5"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+    </LinearLayout>
+
+
+</FrameLayout>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log"
+    tools:context=".settingsfrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_lock_24"
+        android:layout_marginTop="80dp"
+        />
+
+        <Button
+            android:id="@+id/changepwd"
+            android:layout_width="213dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:background="#009688"
+            android:text="change password"
+            android:textSize="14dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_logout_24"
+            android:layout_marginTop="180dp"
+            />
+
+        <Button
+
+            android:id="@+id/logout"
+            android:layout_width="213dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="180dp"
+            android:background="#009688"
+            android:text="log out"
+            android:textSize="14dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

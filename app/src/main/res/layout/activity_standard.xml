@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context="com.example.Standard">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1019C3"
+            app:title="STANDARD"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/cdpolnr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/cdpo"
+                android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:id="@+id/CDPOlogin"
+                android:layout_width="99dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="60dp"
+                android:background="#EF5221"
+                android:text="CDPO"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/panchayathlnr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/panchayathlogo"
+                android:layout_marginRight="50dp"/>
+
+            <Button
+                android:id="@+id/panchayathlogin"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:background="#FF5722"
+                android:gravity="center"
+                android:text="PANCHAYATH"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/supervisrlnr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/panchayathlnr"
+          >
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/supervisorlogo"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="50dp"/>
+
+            <Button
+                android:id="@+id/supervisorlogin"
+                android:layout_width="111dp"
+                android:layout_height="40dp"
+                android:background="#FF5722"
+                android:text="Supervisor"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/teacherlnr"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cdpolnr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/teacherlogo"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:id="@+id/teacherlogin"
+                android:layout_width="106dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="50dp"
+                android:background="#FF5722"
+                android:text="TEACHER"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/healthinspectorlnr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/teacherlnr">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/healthlogo"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:id="@+id/healthlogin"
+                android:layout_width="109dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:background="#FF5722"
+                android:text="HEALTHINSPECTOR"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/supervisrlnr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/userlog"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="50dp"/>
+
+            <Button
+                android:id="@+id/userlogin"
+                android:layout_width="107dp"
+                android:layout_height="40dp"
+                android:background="#FF5722"
+                android:text="USER"
+                android:textSize="14dp" />
+        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

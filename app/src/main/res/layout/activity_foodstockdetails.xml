@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#71D5CB"
+    tools:context="com.example.foodstockdetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food Stock Details"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="26dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/fdate"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anganwadi Id:"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/fanganid"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rice:"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/frice"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grains:"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/fgrains"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other foods:"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/fotherfoods"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+        <Button
+            android:id="@+id/fsubmit"
+            android:layout_width="107dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bottomnavcolour"
+            android:text="Submit"
+            android:textSize="14dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="170dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

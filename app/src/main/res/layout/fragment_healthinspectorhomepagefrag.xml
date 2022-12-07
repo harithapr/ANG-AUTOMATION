@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/homepa"
+    tools:context="com.example.healthinspectorhomepagefrag">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:id="@+id/firstrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/vaccine"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/img"
+            android:gravity="bottom"
+            android:text="Vaccination"
+            android:textColor="#060607"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/inspection"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/food"
+            android:gravity="bottom"
+            android:text="Inspection "
+            android:textColor="#1931B6"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

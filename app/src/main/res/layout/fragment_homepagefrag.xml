@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.homepagefrag"
+    android:orientation="horizontal"
+    android:background="@drawable/homepa">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/reg"
+        android:gravity="bottom"
+        android:text="register"
+        android:textColor="#1931B6"
+        android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/sup"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/supv"
+            android:gravity="bottom"
+            android:text=" Duties"
+            android:textColor="#1931B6"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/rep"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rep"
+        android:gravity="bottom"
+        android:text="Reports"
+        android:textColor="#1D389C"
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+    
+
+
+
+</FrameLayout>

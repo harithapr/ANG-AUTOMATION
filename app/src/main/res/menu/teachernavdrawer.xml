@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mem_id"
+        android:title="View members details"/>
+    <item
+        android:id="@+id/stud_id"
+        android:title="View students details"/>
+    <item
+        android:id="@+id/teacherid"
+        android:title="Add Teacher Reports"/>
+    <item
+        android:id="@+id/Pregnentwomenid"
+        android:title="View PregnentWomen"/>
+    <item
+        android:id="@+id/viewstudatten"
+        android:title="View Student Attendance"/>
+    <item
+        android:id="@+id/foodstockdetails"
+        android:title="Add Food Stock Details"/>
+    <item
+        android:id="@+id/children"
+        android:title="View Childrens 6M-3Y"/>
+
+
+
+</menu>

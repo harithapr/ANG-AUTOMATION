@@ -1,0 +1,102 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/homepa"
+    tools:context="com.example.userhomepage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="350dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/complaints"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/boxoutlinebutton"
+        android:gravity=""
+        android:text="Complaints"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/scholarshipschemes"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/boxoutlinebutton"
+
+        android:text="Scholarship Schemes"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="350dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/Activities"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="500dp"
+
+        android:text="Anganwadi Activities"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="500dp"
+        android:gravity="end|center"
+        android:background="@drawable/boxoutlinebutton"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scholarshipschemes"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_ads_click_24"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="350dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

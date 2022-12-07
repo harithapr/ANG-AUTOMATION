@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/view_id"
+        android:title="View Supervisors Duties"/>
+    <item
+        android:id="@+id/view_id1"
+        android:title="Add Panchayath Reports"/>
+    <item
+        android:id="@+id/view_id2"
+        android:title="Submit Notification"/>
+    <item
+        android:id="@+id/view_id3"
+        android:title="View User Complaints"/>
+   <!--<item
+        android:id="@+id/view_id4"
+        android:title="View Food Stock Details "/>-->
+
+</menu>

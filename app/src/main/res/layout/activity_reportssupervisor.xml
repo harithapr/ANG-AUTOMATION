@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAFFFFFF"
+    tools:context="com.example.reportssupervisor">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#28022E"
+            app:title="SUPERVISOR REPORTS"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Supervisor id"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+
+
+        <EditText
+            android:id="@+id/supervisorid"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Supervisor id"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4B4B"
+            android:textSize="28dp"/>
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reports"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="#DA66ED"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+    </LinearLayout>
+</FrameLayout>
+

@@ -1,0 +1,221 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.Supervisoreditprofilefrag"
+    android:background="#6FC5BC">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/profilepicicon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cam"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+        <LinearLayout
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cam">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_email_24"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="227dp"
+
+                />
+
+            <TextView
+                android:id="@+id/p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email_id:"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <EditText
+                android:id="@+id/pa1"
+                android:layout_width="302dp"
+                android:layout_height="43dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+
+
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="208dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_phone_android_24"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="294dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone_number:"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="299dp"
+                />
+
+            <EditText
+                android:id="@+id/pa2"
+                android:layout_width="269dp"
+                android:layout_height="41dp"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="133dp"
+                tools:layout_editor_absoluteY="284dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aadhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="569dp" />
+
+            <EditText
+                android:id="@+id/pa3"
+
+                android:layout_width="315dp"
+                android:layout_height="42dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="87dp"
+                tools:layout_editor_absoluteY="560dp"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aadhar">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Place:"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="521dp"
+                />
+
+            <EditText
+                android:id="@+id/pa4"
+                android:layout_width="302dp"
+                android:layout_height="37dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="510dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/block">
+
+
+            <Button
+                android:id="@+id/pasave"
+                android:layout_width="93dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:background="@drawable/submitbutton"
+                android:padding="10dp"
+                android:text="SAVE"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                android:layout_marginLeft="150dp"
+                tools:layout_editor_absoluteX="289dp"
+                tools:layout_editor_absoluteY="644dp"
+                />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
